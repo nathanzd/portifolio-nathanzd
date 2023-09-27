@@ -117,9 +117,9 @@ const HeaderComponent = ({black}) => {
                 <p className={`${styles.upperMenuText}`} style={{color:'white'}}>nathan.fe.dias@gmail.com</p>
             </div>
                 <div className={`${styles.languageSelectorFlagsDesktop}`}>
-                    <img className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','pt-BR');window.location = window.location}}  src={brazilianFlag.src} alt="Português"/>
-                    <img className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','en-US');window.location = window.location}} src={englandFlag.src} alt="Português"/>
-                    <img className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','es-ES');window.location = window.location}} src={spainFlag.src} alt="Português"/>
+                    <img className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','pt-BR');window.location.reload()}}  src={brazilianFlag.src} alt="Português"/>
+                    <img className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','en-US');window.location.reload()}} src={englandFlag.src} alt="Português"/>
+                    <img className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','es-ES');window.location.reload()}} src={spainFlag.src} alt="Português"/>
                 </div>
             </div>
            
@@ -152,9 +152,9 @@ const HeaderComponent = ({black}) => {
 
                     <div>
                         <div className={`${styles.languageSelectorFlagsMobile}`}>
-                            <img className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','pt-BR');window.location = window.location}}  src={brazilianFlag.src} alt="Português"/>
-                            <img className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','en-US');window.location = window.location}}  src={englandFlag.src} alt="Português"/>
-                            <img  className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','es-ES');window.location = window.location}} src={spainFlag.src} alt="Português"/>
+                            <img className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','pt-BR');window.location.reload()}}  src={brazilianFlag.src} alt="Português"/>
+                            <img className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','en-US');window.location.reload()}}  src={englandFlag.src} alt="Português"/>
+                            <img  className='flagImage' onClick={()=>{window.localStorage.setItem('i18nextLng','es-ES');window.location.reload()}} src={spainFlag.src} alt="Português"/>
                         </div>
                     </div>
 
