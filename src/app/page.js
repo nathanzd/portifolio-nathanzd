@@ -4,7 +4,6 @@ import HeaderComponent from "./Components/HeaderComponent/HeaderComponent";
 import LettersDropdownMatrix from "./Components/LettersDropdownMatrix/LettersDropdownMatrix";
 import React from 'react';
 import GridList from "./Components/GridListLanguages/GridList";
-import DamascusGradient from "./Components/DamascusGradient/DamascusGradient";
 import GridListFrameworks from "./Components/GridListFrameworks/GridListFrameworks";
 import GridListDatabases from "./Components/GridListDatabases/GridListDatabases";
 import styles from './page.module.css'
