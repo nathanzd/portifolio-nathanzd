@@ -78,7 +78,7 @@ export default function Home() {
         
       </div>
       <ContactComponent/>
-      <DamascusGradient/>
+      
      
     </div>
 
