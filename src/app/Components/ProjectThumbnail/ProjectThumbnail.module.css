@@ -1,0 +1,42 @@
+.ProjectThumbnailWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+}
+
+.ProjectThumbnail{
+    
+    width: 300px ;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    padding-bottom: 15px;
+   
+}
+.ProjectThumbnailImage{
+   
+    
+}
+.ProjectThumbnailImage img{
+
+    width: 240px;
+    height: 140px;
+}
+.ProjectThumbnailImage{
+    padding: 15px;
+}
+.ProjectThumbnailTitle{
+    color: white;
+    font-weight: bold;
+    
+}
+.ProjectThumbnailText{
+    color: white;
+    padding: 0px 5px;
+    text-align: center;
+    
+}

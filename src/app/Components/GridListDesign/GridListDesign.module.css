@@ -1,0 +1,69 @@
+.WhydatainsiderWrapper{
+    display: flex;
+    
+    align-items: center;
+    padding: 15px 30px;
+    
+}
+.WhydatainsiderText{
+    color:white;
+    
+    font-weight: bold;
+    text-align: left;
+}
+.WhydatainsiderGrid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.WhydatainsiderGridItem{
+    color:white;
+    display: flex;
+    padding: 15px;
+}
+
+.WhydatainsiderGridItemIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WhydatainsiderGridItemIcon span{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.WhydatainsiderGridItemContent{
+    margin-left: 15px;
+}
+.WhydatainsiderGridItemContent h1{
+    
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .WhydatainsiderGrid{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+@media (max-width: 440px) {
+    .WhydatainsiderWrapper{
+        display: flex;
+        
+        align-items: center;
+        padding: 15px 5px;
+        
+    }
+    .WhydatainsiderGrid{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        
+    }
+}

@@ -1,0 +1,53 @@
+.ExperienceTable{
+    border: white 2px solid;
+    width: 100%;
+    border-radius: 15%;
+    margin-bottom: 15px;
+}
+.ExperienceTable p{
+    padding: 10px 15px;
+    color: white;
+}
+
+
+.companyName{
+    width: 20%;
+}
+.companyDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.companyLogo{
+    width: 30%;
+}
+.companyLogo img{
+    width: 10px;
+}
+
+
+.workDescription{
+    width: 80%;
+    padding: 30px 5px;
+}
+
+.ExperienceRow{
+    border-bottom: 2px solid white;
+    
+}
+.ExperienceHeader{
+   
+}
+.ExperienceTable h1{
+    width: 100%;
+    border-bottom: white 2px solid;
+    padding: 10px 15px;
+    color: white;
+}
+@media (max-width: 520px) { 
+    .ExperienceTable{
+       
+        margin-bottom: 50px;
+    }
+  }

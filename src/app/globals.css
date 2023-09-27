@@ -2,26 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: matrixFont;
+  src: url('../fonts/matrixFont.ttf');
+}
+@font-face {
+  font-family:pixelOperator ;
+  src: url('../fonts/pixel_operator/PixelOperator.ttf');
+}
+html{
+  scroll-behavior: smooth;
+}
+header{
+  position: fixed;
+  flex-direction: column;
+  z-index: 998;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  
+  padding: 0 30px;
+  background: transparent;
+  transition: all ease .5s;
+}
+#nathan_software{
+  color:white;
+  font-size:28px
+}
+#nathan_title{
+  color:white;
+  font-weight:bold;
+  font-size:50px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@media (max-width: 576px) { 
+  #nathan_software{
+    font-size: 20px;
   }
-}
+  #nathan_title{
+    font-size: 38px;
+  }
+ 
+ }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+
+@media (max-width: 768px) { 
+  
+ }
+
+
+@media (max-width: 992px) { 
+
+ }
+
+
+@media (max-width: 1200px) { 
+
+ }

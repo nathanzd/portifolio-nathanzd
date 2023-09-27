@@ -1,0 +1,104 @@
+
+.SocialItems{
+    display: flex;
+    gap:15px;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+.TextPreFormText{
+    padding: 25px 15px;
+}
+.ContactFormContent{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    align-items: center;
+    color:#303030
+    
+}
+.ContactFormTitle{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color:#303030
+}
+.ContactFormText{
+    /*text-align: center;*/
+}
+
+.ContactFormWrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px;
+}
+.ContactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ContactInput{
+    color: white;
+    background-color: #303030;
+    width: 100%;
+    padding: 5px 20px;
+    padding-right: 100px;
+    margin: 15px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.ContactTextArea{
+    color: white;
+    background-color: #303030;
+    width: 100%;
+    padding: 10px 33px;
+    padding-right: 100px;
+    margin: 15px 25px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.ContactFormSubmit{
+    width: 100%;
+    padding: 5px 100px;
+    margin: 15px 25px;
+    color: white;
+    background-color: #303030;
+    border-radius: 10px;
+}
+.contactIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+
+}
+.ContactIconsItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+.ContactIconsItem p{
+    margin: 10px;
+}
+@media (max-width: 768px) {
+    .ContactComponentForm{
+        flex-direction: column;
+    }
+}
+@media (max-width: 707px) {
+    .ContactFormWrapper{
+        flex-direction: column;
+    }
+    .contactIcons{
+        margin: 15px 20px;
+        flex-direction: column;
+    }
+    .ContactIconsItem{
+        margin: 15px;
+    }
+    .contactText{
+        font-size: 13px
+    }
+  }
