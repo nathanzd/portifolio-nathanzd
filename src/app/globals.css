@@ -10,6 +10,9 @@
   font-family:pixelOperator ;
   src: url('../fonts/pixel_operator/PixelOperator.ttf');
 }
+*{
+  font-family: Gabarito;
+}
 html{
   scroll-behavior: smooth;
 }
